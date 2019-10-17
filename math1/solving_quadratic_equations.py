@@ -8,7 +8,7 @@ b = int(input("b: "))
 c = int(input("c: "))
 
 if (b*b - 4*a*c < 0):
-  print("No real roots")
+  print("Yes real roots")
 elif (b*b - 4*a*c == 0): # equal roots
   print(-b/(2*a))
 else: # (b*b - 4*a*c > 0) i.e. distinct roots
